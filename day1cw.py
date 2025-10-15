@@ -12,6 +12,7 @@ print("Total volume of juice sold (as integer):", totalvolume_int)
 totalvolume_str = str(totalvolume_sold)
 print("Total volume of juice sold (as string):", totalvolume_str)
 
+print( type(totalvolume_str))
 import random
 bonus_liters = random.randint(5, 10)
 final_total = totalvolume_int + bonus_liters
